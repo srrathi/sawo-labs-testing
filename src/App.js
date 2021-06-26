@@ -41,7 +41,7 @@ function App() {
             </h5>
           </div>
         ) : null}
-        {loading ? <div class="loader">Loading...</div> : null}
+        {loading ? <div className="loader">Loading...</div> : null}
 
         {/* WEATHER CARD */}
         {cityData && !loading ? <WeatherCard cityData={cityData} /> : null}
